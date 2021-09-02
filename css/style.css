@@ -1,0 +1,62 @@
+
+/* =====================
+    Custom Style
+=======================*/
+
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://wallpaperaccess.com/full/2862101.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+/* Header Section Style */
+header{
+    margin-top: 50px;
+}
+
+.textColor{
+    color:white;
+    font-size: 50px;
+}
+
+/* Main Section Style */
+.textDanger{
+    color: tomato;
+    background-color: white;
+    padding: 5px 7px;
+    width: 70%;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.allTextColor{
+    color:white;
+}
+
+/* Book Card Section Style */
+.cardHeight{
+    height: 700px;
+    box-shadow: 2px 2px 11px 1.7px #ff9100;
+    background-color: rgb(255, 255, 255);
+}
+
+.imgHieght{
+    height: 400px;
+}
+
+/* Loadding Sinpper Section Style */
+.spinnerColor{
+    color: rgb(179, 180, 180);
+}
+
+
+/* Footer Section Style */
+.marginTop{
+    margin-top: 180px;
+}
