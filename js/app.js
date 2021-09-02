@@ -69,10 +69,10 @@ displayBook = (data) => {
            <div class="card cardHeight">
                 <img src=${imgUrl} class="card-img-top imgHieght" alt="${item?.title}">
                <div class="card-body">
-                   <h5 id="authorName" class="card-title my-2"> Book Name: ${item?.title}</h5>
-                   <p class="card-text">Author: <span class="text-secondary">${auth}</span></p>
-                   <p class="card-text">Publisher: <span class="text-secondary">${publisher}</span></p>
-                   <p class="card-text">Published: <span class="text-secondary">${publishDate}</span></p>
+                   <h5 id="authorName" class="card-title my-2"> <i class="fas fa-book"></i> Book Name: ${item?.title}</h5>
+                   <p class="card-text"><i class="fas fa-user"></i> Author: <span class="text-secondary">${auth}</span></p>
+                   <p class="card-text"><i class="fas fa-file-powerpoint"></i> Publisher: <span class="text-secondary">${publisher}</span></p>
+                   <p class="card-text"><i class="fas fa-calendar-day"></i> Published: <span class="text-secondary">${publishDate}</span></p>
                </div>
            </div>
        </div>
