@@ -20,7 +20,7 @@ const search = () => {
     sppiner("visible");
     blankInput.style.display = "none";
     // Book Api Link
-    const url = `http://openlibrary.org/search.json?q=${inputValue}`;
+    const url = `https://openlibrary.org/search.json?q=${inputValue}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
